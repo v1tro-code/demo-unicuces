@@ -22,7 +22,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Sanmartin Academia - Plataforma de Aprendizaje",
+  title: "Unicuces - Plataforma de Aprendizaje",
   description: "Plataforma educativa con cursos especializados",
 }
 

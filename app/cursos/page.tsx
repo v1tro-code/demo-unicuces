@@ -5,7 +5,7 @@ import CourseListSkeleton from "@/components/organisms/CourseList/CourseListSkel
 import { getCourses } from "@/lib/actions/course-actions"
 
 export const metadata: Metadata = {
-  title: "Cursos | Sanmarting Academia",
+  title: "Cursos | Unicuces",
   description: "Explora nuestra amplia selección de cursos en diversas áreas de conocimiento.",
 }
 

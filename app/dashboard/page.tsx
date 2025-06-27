@@ -5,7 +5,7 @@ import StudentDashboard from "@/components/organisms/StudentDashboard/StudentDas
 import { config } from "@/lib/config"
 
 export const metadata = {
-  title: "Dashboard Estudiantil - Sanmartin Academia",
+  title: "Dashboard Estudiantil - Unicuces",
   description: "Accede a toda tu información académica y cursos en un solo lugar",
 }
 

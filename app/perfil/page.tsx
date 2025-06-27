@@ -5,7 +5,7 @@ import ProfileTabs from "@/components/organisms/ProfileTabs/ProfileTabs"
 import { config } from "@/lib/config"
 
 export const metadata = {
-  title: "Mi Perfil - Sanmartin Academia",
+  title: "Mi Perfil - Unicuces",
   description: "Gestiona tu perfil y accede a tus cursos",
 }
 

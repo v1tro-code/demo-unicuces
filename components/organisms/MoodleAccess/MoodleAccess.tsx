@@ -80,8 +80,8 @@ const MoodleAccess = ({ userData }: MoodleAccessProps) => {
             <li>Si es tu primera vez, deberás establecer una contraseña al acceder</li>
             <li>
               Si tienes problemas de acceso, contacta con soporte en{" "}
-              <a href="mailto:soporte@sanmarting.com" className="underline">
-                soporte@sanmarting.com
+              <a href="mailto:soporte@Unicuces.com" className="underline">
+                soporte@Unicuces.com
               </a>
             </li>
           </ul>

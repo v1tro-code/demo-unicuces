@@ -6,7 +6,7 @@ import DiscCertificate from "@/components/organisms/DiscCertificate/DiscCertific
 import ContactForm from "@/components/organisms/ContactForm/ContactForm"
 
 export const metadata = {
-  title: "Sanmartin Academia",
+  title: "Unicuces",
   description: "Descubre tu perfil  y mejora tus habilidades personales y profesionales",
 }
 

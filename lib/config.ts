@@ -4,6 +4,6 @@ export const config = {
   useSupabase: false,
 
   // Otras configuraciones de la aplicación
-  appName: "Sanmartin Academia",
+  appName: "Unicuces",
   demoMode: true,
 }

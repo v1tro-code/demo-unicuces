@@ -36,7 +36,7 @@ const StudentDashboard = ({ userData }: StudentDashboardProps) => {
   const studentData = userData ||
     user || {
       id: "demo-user-id",
-      email: "estudiante@sanmartin.edu",
+      email: "estudiante@Unicuces.edu",
       firstName: "Carlos",
       lastName: "Rodríguez",
       role: "student",
@@ -412,7 +412,7 @@ const StudentDashboard = ({ userData }: StudentDashboardProps) => {
                           <p className="text-sm text-gray-500 mb-1">URL de Moodle</p>
                           <p className="font-medium text-primary">
                             <a
-                              href="https://moodle.sanmarting.edu"
+                              href="https://moodle.Unicuces.edu"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="flex items-center"
@@ -466,8 +466,8 @@ const StudentDashboard = ({ userData }: StudentDashboardProps) => {
                 <div className="w-full">
                   <p className="text-sm text-gray-500 mb-4">
                     ¿Problemas para acceder? Contacta con soporte técnico en{" "}
-                    <a href="mailto:soporte@sanmarting.edu" className="text-primary hover:underline">
-                      soporte@sanmarting.edu
+                    <a href="mailto:soporte@Unicuces.edu" className="text-primary hover:underline">
+                      soporte@Unicuces.edu
                     </a>
                   </p>
                   <div className="flex flex-wrap gap-2">

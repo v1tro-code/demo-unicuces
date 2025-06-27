@@ -11,13 +11,13 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
 
   if (!course) {
     return {
-      title: "Curso no encontrado - Sanmartin Academia",
+      title: "Curso no encontrado - Unicuces",
       description: "El curso que buscas no existe o ha sido eliminado",
     }
   }
 
   return {
-    title: `${course.title} - Sanmartin Academia`,
+    title: `${course.title} - Unicuces`,
     description: course.description,
   }
 }
