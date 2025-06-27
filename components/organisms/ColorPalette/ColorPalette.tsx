@@ -2,11 +2,13 @@ import React from 'react'
 
 const ColorPalette = () => {
   const colors = [
-    { name: 'Primary (San Martín Teal)', class: 'bg-primary', hex: '#4A9D96' },
-    { name: 'Secondary (San Martín Teal Dark)', class: 'bg-secondary', hex: '#2C5F5F' },
-    { name: 'San Martín Teal Light', class: 'bg-sanmartin-teal-light', hex: '#6BB6AF' },
-    { name: 'San Martín Navy', class: 'bg-sanmartin-navy', hex: '#1B3B5C' },
+    { name: 'Primary (San Martín Red)', class: 'bg-primary', hex: '#C41E3A' },
+    { name: 'Secondary (San Martín Blue)', class: 'bg-secondary', hex: '#1e3a8a' },
+    { name: 'San Martín Gold', class: 'bg-sanmartin-gold', hex: '#FDB813' },
+    { name: 'San Martín Red Light', class: 'bg-sanmartin-red-light', hex: '#E6485F' },
+    { name: 'San Martín Blue Light', class: 'bg-sanmartin-blue-light', hex: '#3b82f6' },
     { name: 'San Martín Cream', class: 'bg-sanmartin-cream', hex: '#F8F6F3' },
+    { name: 'San Martín Gray', class: 'bg-sanmartin-gray', hex: '#6B7280' },
   ]
 
   const primaryVariants = [
@@ -59,19 +61,19 @@ const ColorPalette = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-primary text-white p-6 rounded-lg">
               <h4 className="font-bold mb-2">Botón Primario</h4>
-              <p>Usando el color principal de San Martín</p>
+              <p>Usando el rojo institucional de San Martín</p>
             </div>
             <div className="bg-secondary text-white p-6 rounded-lg">
               <h4 className="font-bold mb-2">Botón Secundario</h4>
-              <p>Usando el color secundario de San Martín</p>
+              <p>Usando el azul institucional de San Martín</p>
             </div>
-            <div className="bg-sanmartin-teal-light text-white p-6 rounded-lg">
-              <h4 className="font-bold mb-2">Acento Claro</h4>
-              <p>Variante más clara del teal</p>
+            <div className="bg-sanmartin-gold text-gray-900 p-6 rounded-lg">
+              <h4 className="font-bold mb-2">Acento Dorado</h4>
+              <p>Color de apoyo para destacar elementos</p>
             </div>
-            <div className="bg-sanmartin-navy text-white p-6 rounded-lg">
-              <h4 className="font-bold mb-2">Navy</h4>
-              <p>Color navy complementario</p>
+            <div className="bg-sanmartin-red-light text-white p-6 rounded-lg">
+              <h4 className="font-bold mb-2">Rojo Claro</h4>
+              <p>Variante más clara del rojo principal</p>
             </div>
           </div>
         </div>

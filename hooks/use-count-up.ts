@@ -21,7 +21,7 @@ export function useCountUp({ end, start = 0, duration = 2000, delay = 0, onCompl
       (entries) => {
         if (entries[0].isIntersecting) {
           setIsVisible(true)
-          observer.onnect()
+          observer.disconnect()
         }
       },
       { threshold: 0.1 },
@@ -32,7 +32,7 @@ export function useCountUp({ end, start = 0, duration = 2000, delay = 0, onCompl
     }
 
     return () => {
-      observer.onnect()
+      observer.disconnect()
     }
   }, [])
 

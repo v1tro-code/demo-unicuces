@@ -26,40 +26,44 @@ const config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#4A9D96", // Verde azulado/teal principal de San Martín
+          DEFAULT: "#C41E3A", // Rojo institucional de San Martín
           foreground: "hsl(var(--primary-foreground))",
-          50: "#f0fffe",
-          100: "#ccfdfb", 
-          200: "#99faf6",
-          300: "#5ef2ec",
-          400: "#2dd9d2",
-          500: "#4A9D96", // Color principal
-          600: "#3a7f79",
-          700: "#2f635f",
-          800: "#28504e",
-          900: "#264343",
+          50: "#fef2f2",
+          100: "#fee2e2", 
+          200: "#fecaca",
+          300: "#fca5a5",
+          400: "#f87171",
+          500: "#ef4444",
+          600: "#dc2626",
+          700: "#b91c1c",
+          800: "#C41E3A", // Color principal - rojo institucional
+          900: "#7f1d1d",
         },
         secondary: {
-          DEFAULT: "#2C5F5F", // Verde azulado más oscuro de San Martín
+          DEFAULT: "#1e3a8a", // Azul institucional de San Martín
           foreground: "hsl(var(--secondary-foreground))",
-          50: "#f6f8f8",
-          100: "#e1e8e8",
-          200: "#c3d1d1",
-          300: "#9db0b0",
-          400: "#708787",
-          500: "#56696b",
-          600: "#485859",
-          700: "#3e4a4b",
-          800: "#2C5F5F", // Color principal
-          900: "#253535",
+          50: "#eff6ff",
+          100: "#dbeafe",
+          200: "#bfdbfe",
+          300: "#93c5fd",
+          400: "#60a5fa",
+          500: "#3b82f6",
+          600: "#2563eb",
+          700: "#1d4ed8",
+          800: "#1e3a8a", // Color principal - azul institucional
+          900: "#1e1b4b",
         },
-        // Colores inspirados en la identidad de San Martín
+        // Colores institucionales de San Martín
         'sanmartin': {
-          'teal': '#4A9D96',
-          'teal-dark': '#2C5F5F',
-          'teal-light': '#6BB6AF',
-          'navy': '#1B3B5C',
-          'cream': '#F8F6F3',
+          'red': '#C41E3A',        // Rojo principal
+          'red-dark': '#991B2E',   // Rojo oscuro
+          'red-light': '#E6485F',  // Rojo claro
+          'blue': '#1e3a8a',       // Azul principal
+          'blue-dark': '#1e40af',  // Azul oscuro
+          'blue-light': '#3b82f6', // Azul claro
+          'gold': '#FDB813',       // Dorado/amarillo de apoyo
+          'cream': '#F8F6F3',      // Crema
+          'gray': '#6B7280',       // Gris neutro
         },
         accent: {
           DEFAULT: "#F5F5F5", // Blanco/gris muy claro para contraste
